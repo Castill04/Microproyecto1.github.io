@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(184, 244, 234);
+    background-size: cover;
+}
+
+.titulo{
+    font-size: large;
+    color: rgb(153, 242, 214);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font: bolder;
+    background-color: rgba(17, 82, 64, 0.701);
+    background-size: cover;
+    font-size: 30px;
+}
+.texto-inf{
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+.ad{
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+.menuhorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menuhorizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menuhorizontal > li:hover{
+    background-color: black;
+}
+.menuhorizontal{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(17, 76, 95);
+    font-size: 20px;
+    margin-top: auto;
+}
+.diseno{
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: fit-content;
+}
+button.btn{
+    background-color: white;
+    border: 5px;
+    color: black;
+    padding: 14px 45px;
+    text-align: center;
+    font-size: 23px;
+    margin: 4px 2px;
+    transition: 0.3%;
+}
+button#btndraw{
+    position: fixed;
+    top: 8%;
+    left: 7%;
+}
+table{
+    border-collapse: collapse;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+th{
+    background-color: gray;
+}
+table, th, td, tr{
+    padding: 10px;
+    color: black;
+    border: 3px solid black;
+    text-align: center;
+}
+td.datanumber{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    padding: 2px;
+}
+td.ball-data{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    padding: 2px;
+}
+input{
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 15px;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+table#table-balls{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5px;
+    border: 2px solid white;
+    padding: 5px;
+}
+button:hover{
+    background-color: darkcyan;
+    color: white;
+    border-bottom: 3px solid white;
+    cursor: pointer;
+}
+button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 10px;
+}
+.pdrawBall{
+    font-size: 40px;
+}
+.free{
+    background-color: red;
+}

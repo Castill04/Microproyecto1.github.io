@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Juego de Bingo</title>
+    <link rel="stylesheet" type="text/css" href="../style/styles.css" />
+  </head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../estilo/stylesJuego.css"
+  <body>
+    <ul class="titulo">
+      <center><h1>SUPERBINGO</h1></center>
+    </ul>
+    <ul class="texto-inf">
+      <center><h3>Menu de juego</h3></center>
+    </ul>
+    <ul class="ad">
+      <center>(Advertencia: si se ingresan mas de 4 jugadores, la pagina se reiniciara.)</center>
+    </ul>
+    <ul class="menuhorizontal">
+      <li><a href="principal.html">Inicio</a></li>
+      <li><a href="juego.html">Jugar Bingo</a></li>
+      <li><a href="tabla.html">Tabla de Clasificacion</a></li>
+    </ul>
+    <center>
+      <p id="Turns">Turno: 0</p>
+    </center>
+    <center>
+      <ul class="diseno">
+        <p class="pdrawBall" id="pdrawBall"></p>
+        Ingrese el numero de jugadores:
+        <input type="text" id="txtInput" placeholder="Numero de jugadores" />
+        <button onclick="draw()">Añadir jugador/es</button>
+        <button id="btnDrawBall" onclick="drawBall()">Obtener Numero</button>
+        <button onclick="clearCards()">Reiniciar partida</button>
+      </ul>
+    </center>
+  </div>
+    <center>
+      <p id="pCount">Numero de jugadores: 0</p>
+    </center><br>
+    <center>
+      <div id="pjugador"
+    </center>
+    <center>
+      <div id="divBingoCard"></div>
+    </center>
+    <script src="../scripts/BallDraw.js"></script>
+    <script src="../scripts/BingoCard.js"></script>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
+
+
